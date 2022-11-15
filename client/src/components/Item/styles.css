@@ -1,0 +1,18 @@
+.item-actions {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 6px;
+  background-color: white;
+  padding: 0px 4px;
+  border-radius: 4px;
+}
+
+.item-container {
+  position: relative;
+}
+
+.item-container:hover > .item-actions {
+  display: inherit;
+}
